@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Timesheet</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link href="css/compiled/theme.css" rel="stylesheet" media="screen">
+  <link href="css/vendor/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Style -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+  <!--[if lt IE 9]>
+  <script src="../../assets/js/html5shiv.js"></script>
+  <script src="../../assets/js/respond.min.js"></script>
+  <![endif]-->
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+  <![endif]-->
+</head>
+<body>
+    <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">
+              <img src="images/logo.png">
+            </a>
+          </div>
+
+          <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="aboutus.html">About us</a>
+                </li>
+                <li>
+                    <a href="features.html">Features</a>
+                </li>
+                <li>
+                    <a href="features.html">Projects</a>
+                </li>
+                <li>
+                    <a href="pricing.html">Cost</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blog-post.html">Blog Post</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">External pages <b class="caret"></b></a>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+			<li><a href="purchase.html">Purchase products</a></li>
+                        <li><a href="coming-soon.html">Coming soon</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </li>
+                <li class="sign-btn">
+                    <a href="signup.html">Sign up</a>
+                </li>
+                <li class="sign-btn">
+                    <a href="signin.html">Sign in</a>
+                </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <section id="faq">
+        <div class="container">
+            <div class="inner-block">
+                <header>
+                    <h2>FAQ</h2>
+                    <span class="line"></span>
+                </header>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="panel-group" id="accordion">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                  What is Timesheet?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                              <div class="panel-body">
+                                Timesheet is an easy to use, web based timesheet management system.  Employees can enter/edit/submit their timesheets online anywhere, anytime.   Managers in charge of the project will be able to view/approve/reject the timesheet submitted by employees.  All users can access the system as long as they have a computer or phone and interview access.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                 How can I buy Timesheet?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p><a href="purchase.html">Purchase this product.</a></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                What are the browsers Timesheet can work on?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                              <div class="panel-body">
+                               Timesheet works best on modern Gecko and Blink/WebKit browsers. We recommend Google Chrome and Mozilla Firefox. However, all modern browsers should work with Timesheet.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                 Why should I use Timesheet over other timesheet solutions?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                It is the cheapest solution around on the internet. It is easy to implement to your current system.  It is the best system for timesheet solutions. Try the demo trial and you will be able to see for yourself!
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                 Where can I get a demo trial of Timesheet?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <p><a href="demo.html">Try the demo trial.</a></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                  Is maintenance and software updates included in the price?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse">
+                              <div class="panel-body">
+                        Yes, there is no software version limiting on a subscription package. Any subscription package you purchase will always have free software updates and maintenance.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                 Is there a limit to the number of Jobs (Client Projects)/Users/Timesheet?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseSeven" class="panel-collapse collapse">
+                              <div class="panel-body">
+                               No, there are no limits to Timesheet’s number of jobs input, users registration and timesheets.
+                              </div>
+                            </div>
+                          </div>
+                           <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+                                 Can Timesheet generate reports?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseEight" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                Timesheet can generate the following reports:
+<ul style="list-style-type:circle">
+  <li>Total hours by job (client project) and work type</li>
+  <li>Total hours per week per user per job (client project)</li>
+  <li>Leave usage</li>
+  <li>Total hours by user</li>
+  <li>Total hours by user for a week/fortnight</li>
+  <li>Total hours per job (client project)</li>
+</ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+                               Can Timesheet integrate with the payroll system I have?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseNine" class="panel-collapse collapse">
+                              <div class="panel-body">
+                               Timesheet can integrate with iPayroll.  It has the ability to export a CSV file and load into your existing payroll system.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+                               Can I customize Timesheet to better suit my company’s needs?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseTen" class="panel-collapse collapse">
+                              <div class="panel-body">
+                             Absolutely! From job management interfaces to task specification, Timesheet allows your company to manage your project information, your way.
+                              </div>
+                            </div>
+                          </div>
+			 <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
+                                  How do I use Timesheet?
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseEleven" class="panel-collapse collapse">
+                              <div class="panel-body">
+                       Timesheet is driven by a centralised web interface that can be accessed via your mobile device and desktop computer alike. The primary method of site navigation is via the sidebar, in which its options differ based on the type of account you have (i.e. Admin or Employee).
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                  <a href="#">
+                      <img class="img-responsive" src="images/logo.png">
+                  </a>
+
+                  <ul>
+                      <li>2301 East Lamar Blvd. Suite 140.</li>
+                      <li>City, Arlington. United States,</li>
+                      <li>Zip Code, TX 76006.</li>
+                      <li class="phone">1 817 274 2933</li>
+                      <li><a href="#">bootstrap@twitter.com</a></li>
+                  </ul>
+              </div>
+
+              <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 pull-right">
+                  <h2>Contact Us</h2>
+                  <form>
+                      <div class="col-sm-6 col-md-6 col-lg-6">
+                          <div class="form-group">
+                              <input type="text" class="form-control" placeholder="Name">
+                          </div>
+                          <div class="form-group">
+                              <input type="email" class="form-control" placeholder="Email">
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control" placeholder="City">
+                          </div>
+                      </div>
+
+                      <div class="col-sm-6 col-md-6 col-lg-6">
+                          <div class="form-group">
+                              <textarea class="form-control" rows="6" placeholder="Comment"></textarea>
+                          </div>
+                      </div>
+                      <button type="submit" class="btn btn-green">Send</button>
+                  </form>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-4">
+                  <p>© 2014  -  Measure Template </p>
+              </div>
+
+              <div class="col-lg-6 pull-right">
+                  <h6>Social Media</h6>
+                    <div class="social">
+                        <a class="facebook" href="#"><i class="icon-facebook"></i></a>
+                        <a class="twitter" href="#"><i class="icon-twitter"></i></a>
+                        <a class="pinterest" href="#"><i class="icon-pinterest"></i></a>
+                        <a class="linkedin" href="#"><i class="icon-linkedin"></i></a>
+                        <a class="gplus" href="#"><i class="icon-google-plus"></i></a>
+                        <a class="github" href="#"><i class="icon-github-alt"></i></a>
+                    </div>
+              </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

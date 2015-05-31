@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Timesheet</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="css/compiled/theme.css" rel="stylesheet" media="screen">
+    <link href="css/vendor/font-awesome.min.css" rel="stylesheet">
+    <link href="css/vendor/flexslider.css" rel="stylesheet" media="screen">
+
+    <!-- Style -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    <!--[if IE 7]>
+	  <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+	<![endif]-->
+</head>
+<body>
+	<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a href="index.html" class="navbar-brand scroller" data-section="body">
+	      	<img src="images/logo.png">
+	      </a>
+	    </div>
+
+	    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+	      	<ul class="nav navbar-nav">
+		        <li>
+		          	<a href="#" class="scroller" data-section="#aboutus">About us</a>
+		        </li>
+			<li>
+		          	<a href="#" class="scroller" data-section="#timesheet">Timesheet</a>
+		        </li>
+		        <li>
+		          	<a href="#" class="scroller" data-section="#features">Features</a>
+		        </li>
+
+		        <li>
+		          	<a href="#" class="scroller" data-section="#pricing">Cost</a>
+		        </li>
+		        <li>
+		          	<a href="purchase.html">Purchase</a>
+		        </li>
+		        <li>
+		          	<a href="contact.html">Contact us</a>
+		        </li>
+
+			 <li>
+		          	<a href="faq.html">FAQ</a>
+		        </li>
+		      
+		      
+	          	<li class="sign-btn">
+	              	<a href="signup.html">Sign up</a>
+	            </li>
+	            <li class="sign-btn">
+	              	<a href="signin.html">Sign in</a>
+	            </li>
+	      	</ul>
+	    </nav>
+	  </div>
+	</header>
+
+	<!-- Banner -->
+	<section class="banner">
+		<div class="container">
+			<div class="row">
+				<h1> <span>Timesheet </span></h1>
+
+				<div class="img">
+					
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<!-- About Us -->
+	<section class="block" id="aboutus">
+		<div class="container">
+			<header>
+				<h2>About Us</h2>
+				<span class="line"></span>
+			</header>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-6 text">
+					
+					<p>Mom’s Friendly Development Company (MFDC) is a small boutique technology development company that specialises in being friendly!</p>
+					<p>In the fast changing world of technology we have found that too many technology companies lose sight of traditional customer service values and not taking the time to listen to their clients.</p>
+					<p>MFDC will listen and we will guide you through the labyrinth of options available to you when you need a technological solution or to build the tools to assist in growing your business. We believe we are the only technology company that has actually ever advised our clients NOT to use technology as a solution to their problem.</p>
+					<p>All our clients come from referrals and we are committed to providing quality service to every project. We will not take on a project if we feel that we would not be able to suitably manage and implement the solutions to our high standard of service.</p>
+					
+				</div>
+
+				<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 pull-right img">
+					<img class="img-responsive" src="images/about-circles.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Timesheet -->
+	<section class="block gray-block" id="timesheet">
+		<div class="container">
+			<header>
+				<h2>Timesheet</h2>
+				<span class="line"></span>
+			</header>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text">
+					
+					<p>Timesheet is an affordable and easy-to-use web-based timesheet solution for your company.  It allows management to better manage timesheet capturing, approvals and reporting.</p>
+					<p>Integrate this system as your company’s time tracking feature now!</p>
+
+					
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+	<!-- Features -->
+	<section class="block" id="features">
+		<div class="container">
+			<header>
+				<h2>Features</h2>
+				<span class="line"></span>
+			</header>
+
+			<div class="row">
+				<div class="pic col-xs-12 col-sm-5 col-md-5 col-lg-6">
+					<img class="img-responsive" src="images/admin_dash_nowindow.png">
+				</div>
+
+				<div class="info col-xs-12 col-sm-7 col-md-7 col-lg-6">
+					<h3>Web based interface</h3>
+					<p>
+                        Timesheet is delivered on a web platform, accessible from both desktop and laptop.  Timesheet is also ideal for a mobile workforce using smartphones with its volatile interface.
+                    </p>
+				</div>
+			</div>
+
+
+
+			<div class="row">
+				<div class="pic col-xs-12 col-sm-5 col-md-5 col-lg-6">
+					<h3>Anywhere, anytime</h3>
+					<p>
+                        Timesheet is 100% web enabled, which means all users can logon to the site anytime and anywhere there is an Internet connection on all devices.
+                    </p>
+				</div>
+
+				<div class="info col-xs-12 col-sm-7 col-md-7 col-lg-6">
+					<h3>Deploy immediately</h3>
+					<p>
+                        There are none of the expensive infrastructure, installation, setup or maintenance costs associated with Timesheet.  You can be up and running with Timesheet in no time.
+                    </p>
+				</div>
+			</div>
+
+			<div class="row to-right">
+				<div class="pic col-xs-12 col-sm-5 col-md-5 col-lg-6">
+					<img class="img-responsive" src="images/admin_dash_mobile.png">
+				</div>
+
+				<div class="info col-xs-12 col-sm-7 col-md-7 col-lg-6">
+					<h3>Easy time entry</h3>
+					<p>
+                        Hassle-free time entry solution for your employees.  Users can just log in and enter/edit the timesheet entries without needing to install anything on their local machine or even smartphones.  No training required for general users.
+                    </p>
+<ul style="list-style-type:circle">
+  <li>Selection of jobs for time records</li>
+  <li>Selection of tasks for time records</li>
+  <li>Flexible date and time entry formats</li>
+  <li>Customisable entries</li>
+  <li>Copy time records from one day to the next</li>
+</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="pic col-xs-12 col-sm-5 col-md-5 col-lg-6">
+					<img class="img-responsive" src="images/employee_create_ts_nowindow.png">
+				</div>
+
+				<div class="info col-xs-12 col-sm-7 col-md-7 col-lg-6">
+					<h3>Selective access based on role permissions</h3>
+					<p>
+                        Role based permission varies for administrators, managers and users.  For example, managers and administrators have access to logs and timesheets approval page whereas users can only enter and edit their timesheet entries. 
+                    </p>
+				</div>
+			</div>
+
+			
+			<div class="row">
+				<div class="pic col-xs-12 col-sm-5 col-md-5 col-lg-6">
+					<h3>iPayroll integration</h3>
+					<p>
+                        Does your business need the integration of your timesheets with your pay roll system?  Timesheet allows the generation of iPayroll for specific employee for the dates you select. 
+                    </p>
+				</div>
+
+				<div class="info col-xs-12 col-sm-7 col-md-7 col-lg-6">
+					<h3>System reporting</h3>
+					<p>
+                       The following reports can be generated for your business:
+                    </p>
+<ul style="list-style-type:circle">
+  <li>Total hours by job (client project) and work type</li>
+  <li>Total hours per week per user per job (client project)</li>
+  <li>Leave usage</li>
+  <li>Total hours by user</li>
+  <li>Total hours by user for a week/fortnight</li>
+  <li>Total hours per job (client project)</li>
+</ul>
+				</div>
+			</div>
+
+			<div class="row to-right">
+				<div class="pic col-xs-12 col-sm-5 col-md-5 col-lg-6">
+					<img class="img-responsive" src="images/admin_task_descriptions_nowindow.png">
+				</div>
+
+				<div class="info col-xs-12 col-sm-7 col-md-7 col-lg-6">
+					<h3>Informative dashboard </h3>
+					<p>
+                        Dashboard report available to administrators and managers include statistic such as number of users in the system, number of new years within the last week, number of timesheets approved in the last week and number of pending timesheets.
+                    </p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="pic col-xs-12 col-sm-5 col-md-5 col-lg-6">
+										<h3>Messaging system</h3>
+					<p>
+                       Messages can be sent and replied within the system between users.  Automated messages are sent to employees when timesheets are approved.
+                    </p>
+				</div>
+
+				<div class="info col-xs-12 col-sm-7 col-md-7 col-lg-6">
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Projects
+	<section class="block" id="projects">
+		<div class="container">
+			<header>
+				<h2>Recent Projects</h2>
+				<span class="line"></span>
+			</header>
+
+			<div class="row">
+				<div class="flexslider">
+				  <ul class="slides">
+				    <li>
+					    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 project">
+							<a href="#">
+								<span class="img">
+									<img src="images/project.jpg">
+									<span class="hover">
+										<span>+</span>
+									</span>
+								</span>
+								<span class="title">Project name</span>
+							</a>
+							<p>There arce many variations.</p>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 project">
+							<a href="#">
+								<span class="img">
+									<img src="images/project.jpg">
+									<span class="hover">
+										<span>+</span>
+									</span>
+								</span>
+								<span class="title">Project name</span>
+							</a>
+							<p>There arce many variations.</p>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 project">
+							<a href="#">
+								<span class="img">
+									<img src="images/project.jpg">
+									<span class="hover">
+										<span>+</span>
+									</span>
+								</span>
+								<span class="title">Project name</span>
+							</a>
+							<p>There arce many variations.</p>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 project">
+							<a href="#">
+								<span class="img">
+									<img src="images/project.jpg">
+									<span class="hover">
+										<span>+</span>
+									</span>
+								</span>
+								<span class="title">Project name</span>
+							</a>
+							<p>There arce many variations.</p>
+						</div>
+				    </li>
+
+				    <li>
+					    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 project">
+							<a href="#">
+								<span class="img">
+									<img src="images/project.jpg">
+									<span class="hover">
+										<span>+</span>
+									</span>
+								</span>
+								<span class="title">Project name</span>
+							</a>
+							<p>There arce many variations.</p>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 project">
+							<a href="#">
+								<span class="img">
+									<img src="images/project.jpg">
+									<span class="hover">
+										<span>+</span>
+									</span>
+								</span>
+								<span class="title">Project name</span>
+							</a>
+							<p>There arce many variations.</p>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 project">
+							<a href="#">
+								<span class="img">
+									<img src="images/project.jpg">
+									<span class="hover">
+										<span>+</span>
+									</span>
+								</span>
+								<span class="title">Project name</span>
+							</a>
+							<p>There arce many variations.</p>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 project">
+							<a href="#">
+								<span class="img">
+									<img src="images/project.jpg">
+									<span class="hover">
+										<span>+</span>
+									</span>
+								</span>
+								<span class="title">Project name</span>
+							</a>
+							<p>There arce many variations.</p>
+						</div>
+				    </li>
+				  </ul>
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<!-- Pricing -->
+	<section class="block gray-block" id="pricing">
+		<div class="container">
+			<header>
+				<h2>Cost</h2>
+				<p>The website is hosted by MFDC in the Cloud, all you need is a computer or mobile device with access to the internet to run the website.  Timesheet is purchased on a subscription basis by filling out the following form.</p>
+				
+			</header>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 price-wrapper">
+					<div class="price-box">
+						<header>
+							<span></span>
+							<div class="price">
+								<p>$1.95<span>Per Month</span></p>
+							</div>
+						</header>
+
+						<div class="text">
+							5-19 users
+						</div>
+
+
+						<a href="purchase.html" class="btn btn-gray">Purchase</a>
+					</div>
+				</div>
+
+
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 price-wrapper">
+					<div class="price-box price-pro">
+						<header>
+							<span></span>
+							<div class="price">
+								<p>$1.62<span>Per Month</span></p>
+							</div>
+						</header>
+
+						<div class="text">
+							20-49 users
+						</div>
+
+						
+						<a href="purchase.html" class="btn btn-gray">Purchase</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 price-wrapper">
+					<div class="price-box price-pro">
+						<header>
+							<span></span>
+							<div class="price">
+								<p>$1.29<span>Per Month</span></p>
+							</div>
+						</header>
+
+						<div class="text">
+							50-99 users
+						</div>
+
+						
+						<a href="purchase.html" class="btn btn-gray">Purchase</a>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 price-wrapper">
+					<div class="price-box">
+						<header>
+							<span></span>
+							<div class="price">
+								<p>$0.95<span>Per Month</span></p>
+							</div>
+						</header>
+
+						<div class="text">
+							100-unlimited users
+						</div>
+
+
+						<a href="purchase.html" class="btn btn-gray">Purchase</a>
+					</div>
+				</div>
+			</div>
+<br>
+<p style="color:grey;">Note: All prices in Australian Dollars ($AUD) and include GST.</p>
+
+<p style="color:grey;">Product details</p>
+<ul style="list-style-type:disc; color:grey;">
+  <li>Low-cost monthly subscription.</li>
+  <li>Fully hosted – no need to install anything or set up cost.</li>
+  <li>Bonus interface for mobile access via your smartphones/tablets.</li>
+</ul> 
+
+		</div>
+
+	</section>
+
+	
+
+	<!-- Clients -->
+	<section class="block gray-block" id="clients">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<header>
+						<h2>Our Clients</h2>
+						<span class="line"></span>
+					</header>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 pull-right">
+					<div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 client">
+						<img class="img-responsive" src="images/scl.png">
+						<p>Southcoast Construction Ltd</p>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="contact">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					<a href="contact.html"><h2>Contact Us</h2></a>
+					
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+					
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 pull-right">
+					
+					
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
