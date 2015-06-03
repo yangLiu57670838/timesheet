@@ -767,7 +767,7 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 200px;
+  height: 400px;
   margin: 50px 0 70px; }
   @media (max-width: 767px) {
     .banner {
@@ -778,7 +778,7 @@ footer {
     color: #252b33;
     margin: 80px auto 100px;
     width: 70%;
-    font-size: 35px; }
+    font-size: 45px; }
     @media (min-width: 991px) {
       .banner h1 {
         line-height: 41px; } }
@@ -786,7 +786,7 @@ footer {
       .banner h1 {
         width: 90%;
         margin: 80px auto 90px;
-        font-size: 30px; } }
+        font-size: 40px; } }
     .banner h1 span {
       font-weight: 600; }
   .banner .img {

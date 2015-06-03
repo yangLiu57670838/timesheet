@@ -9,9 +9,12 @@
   <link href="css/compiled/theme.css" rel="stylesheet" media="screen">
   <link href="css/vendor/font-awesome.min.css" rel="stylesheet">
 
+	
+
   <!-- Style -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
   <!--[if lt IE 9]>
   <script src="../../assets/js/html5shiv.js"></script>
   <script src="../../assets/js/respond.min.js"></script>
@@ -38,25 +41,31 @@
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
                
+		       <li>
+		          	<a href="index.html#aboutus">About us</a>
+		        </li>
+
+		        <li>
+		          	<a href="index.html#features">Features</a>
+		        </li>
+		        <li>
+		          	<a href="index.html#demo">Demo</a>
+		        </li>
+		        <li>
+		          	<a href="index.html#pricing">Cost</a>
+		        </li>
+
 		        <li>
 		          	<a href="purchase.html">Purchase</a>
 		        </li>
+
 		        <li>
-		          	<a href="demo.html">Demo</a>
-		        </li>
-                <li>
-                    <a href="contact.html">Contact us</a>
-                </li>
- 		<li>
-		          	<a href="faq.html">FAQ</a>
+		          	<a href="contact.html">Contact us</a>
 		        </li>
 
-                <li class="sign-btn">
-                    <a href="signup.html">Sign up</a>
-                </li>
-                <li class="sign-btn">
-                    <a href="signin.html">Sign in</a>
-                </li>
+			 <li>
+		          	<a href="faq.html">FAQ</a>
+		        </li>
             </ul>
         </nav>
     </div>
@@ -71,7 +80,7 @@
                 </div>
 
                 <div class="form">
-                    <form role="form">
+                    <form role="form" ng-app="myApp" ng-controller="userCtrl">
 
  
 
@@ -149,7 +158,19 @@
 				
                             </div>
                         </div>
+<br>
+			<div class="form-group clearfix">
+                            <div class="col-lg-12">
+				<div class="col-lg-10" style="text-align:left;"> <label>Try Demo Trial&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="checkbox" name="subscription" id="subscription" ng-model="show"><div>                                            
+                             <div class="col-lg-2" style="text-align:left;"></div>
+				
+				
+                            </div>
+                        </div>
 
+
+
+<div ng-hide="show">
 			<div class="head">
                             <h6 style="font-weight:bold; font-size:100%;">Timesheet</h6>
                         </div>
@@ -181,11 +202,12 @@
 				
                             </div>
                         </div>
+</div>
 
                         <div class="form-group clearfix">
                             <div class="col-lg-12">
                               <button type="submit" class="btn btn-gray">Buy</button>
-			<button class="btn btn-gray"><a href="demo.html">Demo Trial</a></button>
+			
                             </div>
                         </div>
                     </form>
@@ -195,6 +217,54 @@
         </div>
     </div>
   </section>
+
+
+<!-- Footer -->
+	<footer id="contact">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<ul>
+						<li><h2><a href="index.html#aboutus">About us</a></h2></li>
+						
+						<li><h2><a href="index.html#features">Features</a></h2></li>
+						
+						<li><h2><a href="index.html#demo">Demo</a></h2></li>
+						<li><h2><a href="index.html#pricing">Cost</a></h2></li>
+					</ul>
+
+
+					
+				</div>
+
+				
+
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-right">
+					<ul>
+						
+						<li><h2><a href="contact.html">Contact us</a></h2></li>
+						<li><h2><a href="faq.html">FAQ</a></h2></li>
+						<li><h2><a href="purchase.html">Purchase</a></h2> </li>
+						
+					</ul>
+					
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+
+<script>
+angular.module('myApp', []).controller('userCtrl', function($scope) {
+	
+
+
+
+});
+
+</script>
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
